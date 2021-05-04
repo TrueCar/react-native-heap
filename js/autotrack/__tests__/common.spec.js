@@ -328,7 +328,7 @@ describe('Common autotrack utils', () => {
         </Foo>
       );
 
-      expect(myRef.current._reactInternalFiber.type.displayName).toEqual(
+      expect(myRef.current._reactInternals.type.displayName).toEqual(
         'Text'
       );
     });
